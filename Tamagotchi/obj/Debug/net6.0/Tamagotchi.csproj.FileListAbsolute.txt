@@ -1,0 +1,15 @@
+C:\Programmering2\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.exe
+C:\Programmering2\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.deps.json
+C:\Programmering2\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.runtimeconfig.json
+C:\Programmering2\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.dll
+C:\Programmering2\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.pdb
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.csproj.AssemblyReference.cache
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.AssemblyInfoInputs.cache
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.AssemblyInfo.cs
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.csproj.CoreCompileInputs.cache
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.dll
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\refint\Tamagotchi.dll
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.pdb
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.genruntimeconfig.cache
+C:\Programmering2\Tamagotchi\Tamagotchi\obj\Debug\net6.0\ref\Tamagotchi.dll
