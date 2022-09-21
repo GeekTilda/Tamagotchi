@@ -22,17 +22,21 @@ public void PrintList() { //SPECIELL
 }
 
  public void Feed() {
-    hunger =- 3;
+    hunger -= 3;
     if (hunger < 0) {
         hunger = 0;
     }
     System.Console.WriteLine(name + " har nu en hunger på " + hunger);
+    hunger -= 1;
  }
 
  public void Hi() {
 
     int word = generator.Next(words.Count); //??????
-    System.Console.WriteLine(name + " säger " + words[word - 1]);
+    System.Console.WriteLine(name + " säger " + words[word]);
+    if (words[word] == "Bajs" || words[word] == "bajs" || words[word] == "Kiss" || words[word] == "kiss") {
+      ReduceBoredomx3();
+    }
     ReduceBoredom();
  }
 
@@ -42,10 +46,11 @@ public void PrintList() { //SPECIELL
     System.Console.WriteLine(name + " kan nu säga: " + theWord);
     ReduceBoredom();
     words.Add(theWord);
+    
  }
  public void Tick() {
-   hunger =+ 1;
-   boredom =+ 1;
+   hunger += 1;
+   boredom += 1;
  }
  public void PrintStats() {
    System.Console.WriteLine(name + " stats: ");
@@ -62,7 +67,13 @@ public bool GetAlive() {
    return isAlive;
 }
 private void ReduceBoredom() {
-   boredom =- 2;
+   boredom -= 1;
+}
+private void ReduceBoredomx3() {
+   boredom -= 3;
+   if (boredom <= 0) {
+      boredom = 0;
+   }
 }
 }
 

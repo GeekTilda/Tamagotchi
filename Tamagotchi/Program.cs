@@ -5,10 +5,9 @@ Tamagotchi gotchi = new Tamagotchi();
 System.Console.Write("Vad heter din Tamagotchi? ");
 gotchi.name = Console.ReadLine();
 
-while (gotchi.isAlive == true) {
+while (gotchi.GetAlive() == true) {
 
     Console.Clear();
-    gotchi.PrintList(); //SPECIELL
     System.Console.WriteLine();
     gotchi.PrintStats();
     System.Console.WriteLine("(1) Vill du lära " + gotchi.name + " ett nytt ord, (2) hälsa på " + gotchi.name + ", (3) mata " + gotchi.name + " eller göra ingenting? (annat)");
@@ -34,3 +33,4 @@ while (gotchi.isAlive == true) {
 }
 
 System.Console.WriteLine("DU DÖDADE " + gotchi.name + "!");
+Console.ReadLine();
