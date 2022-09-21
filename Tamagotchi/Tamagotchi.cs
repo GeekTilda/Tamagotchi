@@ -12,8 +12,17 @@ public class Tamagotchi
  private Random generator;
  public string name;
 
+public Tamagotchi() {
+   generator = new Random();
+}
+public void PrintList() { //SPECIELL
+   for (int i = 0; i < words.Count; i++)  {
+      System.Console.WriteLine(words[i]);
+   }
+}
+
  public void Feed() {
-    hunger =- 5;
+    hunger =- 3;
     if (hunger < 0) {
         hunger = 0;
     }
@@ -21,15 +30,18 @@ public class Tamagotchi
  }
 
  public void Hi() {
-    int word = generator.Next(words.Count);
-    System.Console.WriteLine(name + " säger " + words[word]);
+
+    int word = generator.Next(words.Count); //??????
+    System.Console.WriteLine(name + " säger " + words[word - 1]);
     ReduceBoredom();
  }
 
  public void Teach(string word) {
-    System.Console.Write("Vilket ord vill du lära " + name + "?");
+    System.Console.Write("Vilket ord vill du lära " + name + "? ");
     string theWord = Console.ReadLine();
+    System.Console.WriteLine(name + " kan nu säga: " + theWord);
     ReduceBoredom();
+    words.Add(theWord);
  }
  public void Tick() {
    hunger =+ 1;
